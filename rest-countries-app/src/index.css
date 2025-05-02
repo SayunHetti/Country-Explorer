@@ -1,0 +1,103 @@
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.rounded-circle {
+  border: 5px solid #f8f9fa;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Profile Container */
+.profile-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Detail Items */
+.detail-item {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.detail-item:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Animation */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Smooth transitions */
+h5,
+p {
+  transition: color 0.3s ease;
+}
+/* Home Page Styles */
+.home-page {
+  overflow-x: hidden;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.features-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+}
+
+/* Login Page Styles */
+.login-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Smooth transitions */
+.btn,
+.card,
+.form-control {
+  transition: all 0.3s ease;
+}
+
+/* List page */
